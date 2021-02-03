@@ -35,7 +35,7 @@ const App = () => {
         const auth = window.localStorage.getItem("userToken")
         const sDate = window.localStorage.getItem("startDate")
         const eDate = window.localStorage.getItem("endDate")
-
+        console.log(auth)
         if (auth) {
             if (sDate && eDate) {
                 setStartDate(sDate)
