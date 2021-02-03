@@ -82,6 +82,15 @@ main {
     width: 25%;
 }
 
+.tokenSuccess {
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    background-color: #6dff4f;
+}
+
 table {
     background-color: antiquewhite;
     table-layout: fixed;
