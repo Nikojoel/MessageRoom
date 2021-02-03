@@ -1,0 +1,101 @@
+main {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.accessInput {
+    width: 25em;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bigBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    width: 20em;
+    height: 16em;
+    background-color: antiquewhite;
+}
+
+.error {
+    color: red;
+    background: #d3d3d3;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.headerCount {
+    font-size: 50px;
+}
+
+.listItem {
+    border-bottom: 1px solid #424242;
+    display: flex;
+    flex-direction: row;
+}
+
+.listItem:nth-child(even) {
+    background-color: #fdfad7;
+}
+
+.listItem:nth-child(odd) {
+    background-color: #fffced;
+}
+
+.innerItem {
+    text-align: center;
+    width: 25%;
+}
+
+table {
+    background-color: antiquewhite;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid #424242;
+    margin-top: 50px;
+}
+
+caption {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 10px;
+    font-size: larger;
+}
