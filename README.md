@@ -1,5 +1,7 @@
 # [App in heroku](https://hidden-beyond-72566.herokuapp.com/)
 
+#### Give Heroku some time to load when visiting there =)
+
 ## Deployment
 1. Clone or download the repository.
 #### HTTPS
